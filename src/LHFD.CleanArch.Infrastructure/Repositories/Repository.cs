@@ -1,6 +1,5 @@
 ﻿using LHFD.CleanArch.Domain.Common;
 using LHFD.CleanArch.Domain.Interfaces;
-using LHFD.CleanArch.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace LHFD.CleanArch.Infrastructure.Repositories
@@ -10,7 +9,7 @@ namespace LHFD.CleanArch.Infrastructure.Repositories
         protected readonly DbContext _context;
         protected readonly DbSet<TEntity> _dbSet;
 
-        public Repository(ApplicationDbContext context)
+        public Repository(DbContext context)
         {
             _context = context;
             _dbSet = context.Set<TEntity>();
