@@ -5,6 +5,11 @@
   "identity": "LHFD.CleanArch.Template",
   "name": "LHFD .NET Clean Architecture Template",
   "shortName": "lhfd-clean",
+  "language": "C#",
+  "tags": {
+    "type": "project",
+    "language": "C#"
+  },
   "sourceName": "LHFD.CleanArch",
   "preferNameDirectory": true,
   "guids": [
