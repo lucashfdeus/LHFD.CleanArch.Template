@@ -7,7 +7,7 @@ namespace LHFD.CleanArch.Infrastructure.Repositories
 {
     public class Repository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : BaseEntity<TKey>
     {
-        protected readonly ApplicationDbContext _context;
+        protected readonly DbContext _context;
         protected readonly DbSet<TEntity> _dbSet;
 
         public Repository(ApplicationDbContext context)
