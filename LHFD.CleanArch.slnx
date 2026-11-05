@@ -1,0 +1,6 @@
+<Solution>
+    <Project Path="src/LHFD.CleanArch.Api/LHFD.CleanArch.Api.csproj" />
+    <Project Path="src/LHFD.CleanArch.Application/LHFD.CleanArch.Application.csproj" />
+    <Project Path="src/LHFD.CleanArch.Domain/LHFD.CleanArch.Domain.csproj" />
+    <Project Path="src/LHFD.CleanArch.Infrastructure/LHFD.CleanArch.Infrastructure.csproj" />
+</Solution>

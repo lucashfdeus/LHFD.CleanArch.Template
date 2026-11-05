@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "LHFD",
+  "classifications": ["Web", "Clean Architecture", "API"],
+  "identity": "LHFD.CleanArch.Template",
+  "name": "LHFD .NET Clean Architecture Template",
+  "shortName": "lhfd-clean",
+  "sourceName": "LHFD.CleanArch",
+  "preferNameDirectory": true,
+  "guids": [
+    "11111111-2222-3333-4444-555555555555"
+  ]
+}
