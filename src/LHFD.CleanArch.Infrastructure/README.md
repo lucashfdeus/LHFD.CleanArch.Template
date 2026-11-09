@@ -18,4 +18,14 @@ This package bundles essential Domain base entities, Generic Repository patterns
 Install via the .NET CLI:
 
 ```bash
-dotnet add package LHFD.CleanArch.Infrastructure
+dotnet add package LHFD.CleanArch.Infrastructure.Sdk
+```
+
+---
+
+## 📬 Contact & Author
+
+Developed by **Lucas Henrique**.
+
+- **GitHub**: [lucashfdeus](https://github.com/lucashfdeus)
+- **LinkedIn**: [Lucas Henrique](https://www.linkedin.com/in/lucashfdeus)

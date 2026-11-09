@@ -5,8 +5,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageId>LHFD.CleanArch.Infrastructure</PackageId>
-		<Version>1.0.3</Version>
+		<PackageId>LHFD.CleanArch.Infrastructure.Sdk</PackageId>
+		<Version>1.0.4</Version>
 		<Authors>Lucas Henrique Faria de Deus</Authors>
 		<Company>LHFD</Company>
 		<Description>SDK completo de Arquitetura Limpa contendo Domínio Base, Repositório Genérico e Unit of Work para .NET 10.</Description>
@@ -31,7 +31,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
